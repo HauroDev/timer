@@ -1,0 +1,47 @@
+.timer {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 2rem;
+}
+
+.header {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+
+.head {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.time {
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+
+.buttons button {
+  margin: 0.25rem;
+  color: white;
+  border-radius: 1rem;
+  border: 1px solid white;
+  padding: 0.5rem;
+}
+
+.buttons button:hover {
+  background-color: white;
+  color: black;
+  transition: background-color 0.5s;
+}
